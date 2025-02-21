@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="5dp"
+        android:layout_marginTop="15dp"
+        android:layout_height="60dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Số thứ 1"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/edt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mời nhập con số ở đây"
+            android:textColor="@color/cardview_dark_background" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="5dp"
+        android:layout_marginTop="15dp"
+        android:layout_height="60dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Số thứ 2"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/edt2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mời nhập con số ở đây"
+            android:textColor="@color/cardview_dark_background" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="5dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:gravity="center_horizontal"
+        android:layout_height="50dp">
+        <Button
+            android:id="@+id/BtnCONG"
+            android:layout_margin="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:onClick="XuLiCong"/>
+        <Button
+            android:id="@+id/BtnTRU"
+            android:layout_margin="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:onClick="XuLiTru"/>
+        <Button
+            android:id="@+id/BtnNHAN"
+            android:layout_margin="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="*"
+            android:onClick="XuLiNhan"/>
+        <Button
+            android:id="@+id/BtnCHIA"
+            android:layout_margin="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\"
+            android:onClick="XuLiChia"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="5dp"
+        android:layout_marginTop="15dp"
+        android:layout_height="60dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kết quả"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/edtKQ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Hiển thị kết quả"
+            android:enabled="false"
+            android:textColor="@color/cardview_dark_background" />
+    </LinearLayout>
+
+</LinearLayout>
