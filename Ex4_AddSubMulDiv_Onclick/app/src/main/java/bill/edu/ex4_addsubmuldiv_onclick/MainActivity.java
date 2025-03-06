@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     //XuliCong
-    public void XuLiCong (View v){
+    public void XuLiCong (View view){
         //LAY DU LIEU VE
 
         String strA = editTextSoA.getText().toString();
@@ -50,8 +50,6 @@ public class MainActivity extends AppCompatActivity {
         float Total = So_A + So_B;
         String strTotal = String.valueOf(Total);//CHUYEN SANG DANG CHUOI
 
-        //Hien ra man hinh ket qua
-        EditText editTextSoKQ = (EditText) findViewById(R.id.edtKQ);
         //CHUYEN SANG DANG CHUOI
         String ChuoiKQ = String.valueOf(Total);
         //Hien ra man hinh ket qua
@@ -59,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
     //XuLiTru
-    public void XuLiTru(View v){
+    public void XuLiTru(View view){
         //LAY DU LIEU VE
 
         String strA = editTextSoA.getText().toString();
@@ -83,7 +81,7 @@ public class MainActivity extends AppCompatActivity {
         editTextSoKQ.setText(ChuoiKQ);
     }
     //XuLiNhan
-    public void XuLiNhan(){
+    public void XuLiNhan(View view){
         //LAY DU LIEU VE
 
         String strA = editTextSoA.getText().toString();
@@ -107,7 +105,7 @@ public class MainActivity extends AppCompatActivity {
         editTextSoKQ.setText(ChuoiKQ);
     }
     //XuLiChia
-    public void XuLiChia(){
+    public void XuLiChia(View view){
         //LAY DU LIEU VE
 
         String strA = editTextSoA.getText().toString();
