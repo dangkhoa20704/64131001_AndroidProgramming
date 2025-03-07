@@ -14,7 +14,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="KHOA XIN CHÀO !"
-        android:textColor="#000080"
         android:textSize="20dp"
         android:textStyle="bold" />
 
@@ -22,7 +21,7 @@
         android:id="@+id/btnLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
+        android:shadowColor="#000080"
         android:text="Đăng nhập"
         android:layout_marginTop="20dp"
         android:textStyle="bold" />
