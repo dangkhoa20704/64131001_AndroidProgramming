@@ -21,8 +21,22 @@
 
 ### Ex5_AddSubMulDiv_Anynomous
 ![image](https://github.com/user-attachments/assets/8b3466b3-07bc-404f-9d11-5e4df4db9fd8)
+
 ### Ex5_AddSubMulDiv_ActivityAsListener
 <img width="959" alt="image" src="https://github.com/user-attachments/assets/39813067-8801-4e81-85ef-06ff013317df" />
+
+### Ex6_IntentDonGian
+#### - Giao diện màn hình chính
+<img width="950" alt="image" src="https://github.com/user-attachments/assets/f96397b4-250e-4a3d-b3ed-e2b71f702739" />
+
+#### - Giao diện màn hình 2 khi Onclick
+<img width="954" alt="image" src="https://github.com/user-attachments/assets/2a38af40-42f1-487b-9129-5e60d4a83d90" />
+
+#### - Giao diện màn hình 3 khi Onclick
+<img width="958" alt="image" src="https://github.com/user-attachments/assets/1c611473-eca2-4513-8219-ace459118ecf" />
+
+
+
 
 
 
