@@ -37,13 +37,15 @@ public class LoginActivity extends AppCompatActivity {
                 EditText edEmail = (EditText) findViewById(R.id.edtEmail);
                 //b2.Lay du lieu
                 String tenDangNhap = edTenDN.getText().toString();
+                String email = edEmail.getText().toString();
                 String mk = edPass.getText().toString();
                 //b3. Kiem tra mat khau
-                if(tenDangNhap.equals("builedangkhoa") && mk.equals("Khoa20704")){
+                if(tenDangNhap.equals("builedangkhoa") && mk.equals("Khoa20704") && email.equals("Khoa20704@gmail.com")){
                     Intent iQuiz = new Intent(LoginActivity.this, HomeActivity.class);
                     //Goi du lieu vao iQuiz
                     iQuiz.putExtra("ten_dang_nhap",tenDangNhap);
                     iQuiz.putExtra("mk_dang_nhap",mk);
+                    iQuiz.putExtra("email_dang_nhap",email);
                     //Gui di
                     startActivity(iQuiz);
                 }
