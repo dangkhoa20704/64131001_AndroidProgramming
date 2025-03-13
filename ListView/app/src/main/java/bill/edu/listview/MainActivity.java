@@ -17,34 +17,40 @@ import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
     ListView listViewNNLT;
-    ArrayList<String> dsNgonNguLT;
+    ArrayList<String> dsNNLT;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.listNNLT), (v, insets) -> {
+        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-        listViewNNLT = findViewById(R.id.listNNLT);
-        //B1: Chuan bi danh sach hard-code
-        dsNgonNguLT = new ArrayList<String>();
-        dsNgonNguLT.add("Python");
-        dsNgonNguLT.add("Php");
-        dsNgonNguLT.add("HTML");
-
-        //b2
+        listViewNNLT = findViewById(R.id.LVNNLT);
+        //B1 : Chuan bi du lieu hard-core
+        dsNNLT = new ArrayList<String>();
+        dsNNLT.add("Python");
+        dsNNLT.add("Java");
+        dsNNLT.add("Php");
+        //B2
         ArrayAdapter<String> adapterNNLT;
-        adapterNNLT = new ArrayAdapter<String>(this,android.R.layout.simple_dropdown_item_1line, dsNgonNguLT);
+        adapterNNLT = new ArrayAdapter<String>(
+                this, android.R.layout.simple_list_item_1, dsNNLT
+        );
+        //B3 Gan Adapter
         listViewNNLT.setAdapter(adapterNNLT);
-
+        //B4 Gan bo lang nghe va xu ly su kien
         listViewNNLT.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                String giaTriDuocChon = dsNgonNguLT.get(position);
-                Toast.makeText(MainActivity.this, giaTriDuocChon, Toast.LENGTH_LONG).show();
+                //Code xu ly truc tiep o day
+                //Chu y : Bien position chua vi tri cua item duoc click
+                String giatriduocchon = dsNNLT.get(position);
+                //Lam gi voi gia tri nay thi tuy
+                //Don gian, ta toast len
+                Toast.makeText(MainActivity.this,giatriduocchon,Toast.LENGTH_SHORT).show();
             }
         });
     }
