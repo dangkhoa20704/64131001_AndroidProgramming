@@ -37,16 +37,14 @@ public class MainActivity extends AppCompatActivity {
 
         //b2
         ArrayAdapter<String> adapterNNLT;
-        adapterNNLT = new ArrayAdapter<String>(this,
-                android.R.layout.simple_dropdown_item_1line, dsNgonNguLT);
+        adapterNNLT = new ArrayAdapter<String>(this,android.R.layout.simple_dropdown_item_1line, dsNgonNguLT);
         listViewNNLT.setAdapter(adapterNNLT);
 
         listViewNNLT.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 String giaTriDuocChon = dsNgonNguLT.get(position);
-                //Lam gi do voi gia tri thi tuy
-                Toast.makeText(MainActivity.this, giaTriDuocChon, Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, giaTriDuocChon, Toast.LENGTH_LONG).show();
             }
         });
     }
