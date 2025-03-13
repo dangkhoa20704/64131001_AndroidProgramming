@@ -35,6 +35,21 @@
 #### - Giao diện màn hình 3 khi Onclick
 <img width="958" alt="image" src="https://github.com/user-attachments/assets/1c611473-eca2-4513-8219-ace459118ecf" />
 
+### Ex7_IntentLogin
+#### - Giao diện đầu tiên
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/a91aaa71-b1f5-4f34-8576-e20974e5a0c3" />
+
+#### - Giao diện khi đăng nhập và nhập thông tin
+<img width="956" alt="image" src="https://github.com/user-attachments/assets/d675e631-7dd6-40f9-ac7a-7f890d6179f5" />
+
+<img width="897" alt="image" src="https://github.com/user-attachments/assets/bd0835ea-c138-408b-a6c0-7e17cb3e9d47" />
+
+#### - Giao diện Home
+<img width="945" alt="image" src="https://github.com/user-attachments/assets/3b0158b0-360d-4ce1-99eb-4aef1e43ad6a" />
+
+
+
+
 
 
 
