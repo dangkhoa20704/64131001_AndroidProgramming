@@ -36,12 +36,11 @@ public class MainActivity extends AppCompatActivity {
         TimDieuKhien();
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
-                if(username.getText().toString().equals("Dang Khoa") && password.getText().toString().equals("1234")){
-                    Toast.makeText(MainActivity.this, "Đăng nhập thành công !",Toast.LENGTH_LONG).show();
-                }
-                else {
-                    Toast.makeText(MainActivity.this,"Tên đăng nhập hoặc mật khẩu sai !",Toast.LENGTH_LONG).show();
+            public void onClick(View view) {
+                if (username.getText().toString().equals("DangKhoa") && password.getText().toString().equals("1234")) {
+                    Toast.makeText(MainActivity.this, "Login Successful!", Toast.LENGTH_SHORT).show();
+                } else {
+                    Toast.makeText(MainActivity.this, "Login Failed!", Toast.LENGTH_SHORT).show();
                 }
             }
         });
