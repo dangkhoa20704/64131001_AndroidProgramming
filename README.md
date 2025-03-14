@@ -47,6 +47,9 @@
 #### - Giao diện Home
 <img width="945" alt="image" src="https://github.com/user-attachments/assets/3b0158b0-360d-4ce1-99eb-4aef1e43ad6a" />
 
+#### - ListView
+<img width="944" alt="image" src="https://github.com/user-attachments/assets/e08877c1-e9c9-4e64-8d20-311b30771fb8" />
+
 
 
 
