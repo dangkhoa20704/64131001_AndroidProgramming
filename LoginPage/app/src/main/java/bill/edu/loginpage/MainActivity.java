@@ -1,5 +1,6 @@
 package bill.edu.loginpage;
 
+
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -18,11 +19,6 @@ public class MainActivity extends AppCompatActivity {
     EditText password;
     Button btnLogin;
 
-    void TimDieuKhien(){
-        username = findViewById(R.id.editUser);
-        password = findViewById(R.id.editPass);
-        btnLogin = findViewById(R.id.btnLogin);
-    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -33,11 +29,14 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-        TimDieuKhien();
+        username = findViewById(R.id.editUser);
+        password = findViewById(R.id.editPass);
+        btnLogin = findViewById(R.id.btnLogin);
+
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (username.getText().toString().equals("DangKhoa") && password.getText().toString().equals("1234")) {
+                if (username.getText().toString().equals("dangkhoa") && password.getText().toString().equals("1234")) {
                     Toast.makeText(MainActivity.this, "Login Successful!", Toast.LENGTH_SHORT).show();
                 } else {
                     Toast.makeText(MainActivity.this, "Login Failed!", Toast.LENGTH_SHORT).show();
