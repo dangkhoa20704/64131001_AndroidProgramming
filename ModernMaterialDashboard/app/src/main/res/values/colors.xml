@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="navy_blue">#001F3F</color>
-    <color name="royal_blue">#4169E1</color>
+    <color name="navy_blue">#000080</color>
+    <color name="royal_blue">#004080</color>
     <color name="dodger_blue">#1E90FF</color>
     <color name="alice_blue">#F0F8FF</color>
     <color name="teal_700">#FF018786</color>
