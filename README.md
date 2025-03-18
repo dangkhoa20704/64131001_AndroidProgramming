@@ -65,7 +65,8 @@
 
 
   ##### - Giao diện của các thẻ khi Onclick
-<img width="920" alt="image" src="https://github.com/user-attachments/assets/0cba10c7-7626-48c0-b39a-afde8392e2da" />
+<img width="950" alt="image" src="https://github.com/user-attachments/assets/bae213d0-6e05-4ade-962c-0914b1a5dc3e" />
+
 
 
 
