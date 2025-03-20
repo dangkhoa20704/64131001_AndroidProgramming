@@ -47,10 +47,10 @@
 #### - Giao diện Home
 <img width="945" alt="image" src="https://github.com/user-attachments/assets/3b0158b0-360d-4ce1-99eb-4aef1e43ad6a" />
 
-#### - ListView
+### ListView
 <img width="944" alt="image" src="https://github.com/user-attachments/assets/e08877c1-e9c9-4e64-8d20-311b30771fb8" />
 
-#### - LoginPage
+### LoginPage
 <img width="952" alt="image" src="https://github.com/user-attachments/assets/f54eaad8-9e3e-424f-b1ab-b0e93d73a16d" />
 
   ##### - Đăng nhập thành công
