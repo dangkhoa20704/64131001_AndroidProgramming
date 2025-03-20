@@ -34,6 +34,8 @@ public class MainActivity extends AppCompatActivity {
          danhsach.add("Bai 1");
          danhsach.add("Bai 2");
         ArrayAdapter<String> adapterDS;
-        adapterDS = new ArrayAdapter<String>(this,list,danhsach )
+        adapterDS = new ArrayAdapter<String>(
+                this, android.R.layout.simple_list_item_1, danhsach);
+    list.setAdapter(adapterDS);
     }
 }
