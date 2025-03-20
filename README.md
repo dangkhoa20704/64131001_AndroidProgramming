@@ -67,6 +67,16 @@
   ##### - Giao diện của các thẻ khi Onclick
 <img width="950" alt="image" src="https://github.com/user-attachments/assets/bae213d0-6e05-4ade-962c-0914b1a5dc3e" />
 
+#### - KidsLearning
+  ##### - Giao diện đầu tiên
+![image](https://github.com/user-attachments/assets/28dd2ca2-a79c-47f2-81a7-da65a2487879)
+
+  ##### - Giao diện home
+<img width="935" alt="image" src="https://github.com/user-attachments/assets/1878de82-6c85-457b-abd1-175bc3a6f72f" />
+
+
+  
+
 
 
 
