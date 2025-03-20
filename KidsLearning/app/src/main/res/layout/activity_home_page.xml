@@ -63,8 +63,8 @@
 
     <ImageButton
         android:id="@+id/btnSearch"
-        android:layout_width="301dp"
-        android:layout_height="56dp"
+        android:layout_width="325dp"
+        android:layout_height="41dp"
         android:layout_marginStart="28dp"
         android:layout_marginTop="33dp"
         android:layout_marginEnd="28dp"
@@ -75,15 +75,13 @@
 
     <ImageButton
         android:id="@+id/btnPuzzle"
-        android:layout_width="352dp"
-        android:layout_height="74dp"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="42dp"
-        android:layout_marginEnd="28dp"
+        android:layout_width="350dp"
+        android:layout_height="84dp"
+        android:layout_marginTop="350dp"
         android:background="@drawable/bg_hcn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnMusic" />
+        app:layout_constraintTop_toBottomOf="@+id/btnSearch" />
 
     <ImageButton
         android:id="@+id/btnedit"
@@ -157,8 +155,10 @@
         android:id="@+id/imageView13"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="70dp"
+        android:layout_marginTop="60dp"
         android:layout_marginEnd="50dp"
+        android:layout_marginBottom="24dp"
+        app:layout_constraintBottom_toBottomOf="@+id/btnPuzzle"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnPain"
         app:srcCompat="@drawable/icon_cole" />
@@ -168,7 +168,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="140dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="45dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnPuzzle"
         app:srcCompat="@drawable/icon_edit" />
@@ -177,7 +177,7 @@
         android:id="@+id/imageView15"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="45dp"
         android:layout_marginEnd="35dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnPuzzle"
@@ -192,6 +192,114 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2"
         app:srcCompat="@drawable/ic_tim" />
+
+    <TextView
+        android:id="@+id/textMaths"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:text="Maths"
+        android:textSize="25sp"
+        android:fontFamily="sans-serif-light"
+        android:textStyle="bold"
+        android:textColor="#FF000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSearch" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="90dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Science"
+        android:textColor="#FF000000"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/btnScience"
+        app:layout_constraintTop_toBottomOf="@+id/btnSearch" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="50dp"
+        android:text="Music"
+        android:textSize="25sp"
+        android:fontFamily="sans-serif-light"
+        android:textStyle="bold"
+        android:textColor="#FF000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnMath" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="90dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Painting"
+        android:textColor="#FF000000"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/btnPain"
+        app:layout_constraintTop_toBottomOf="@+id/btnScience" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="231dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginBottom="24dp"
+        android:fontFamily="sans-serif-light"
+        android:text="CROSSWORD PUZZLES"
+        android:textColor="#FF000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/btnPuzzle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnMusic" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Essay"
+        android:textColor="#FF000000"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/btnRhymes"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnPuzzle" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Rhymes"
+        android:textColor="#FF000000"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/btnedit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnPuzzle" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
