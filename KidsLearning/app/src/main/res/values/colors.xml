@@ -2,4 +2,11 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="xanh">#C2DEFF</color>
+    <color name="cam">#F55454</color>
+    <color name="xanhla">#AAF1CB</color>
+    <color name="vang">#FFD233</color>
+    <color name="xam">#AFB9C5</color>
+    <color name="tim">#E9E9FF</color>
+
 </resources>
