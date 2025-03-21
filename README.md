@@ -47,10 +47,10 @@
 #### - Giao diện Home
 <img width="945" alt="image" src="https://github.com/user-attachments/assets/3b0158b0-360d-4ce1-99eb-4aef1e43ad6a" />
 
-#### - ListView
+### ListView
 <img width="944" alt="image" src="https://github.com/user-attachments/assets/e08877c1-e9c9-4e64-8d20-311b30771fb8" />
 
-#### - LoginPage
+### LoginPage
 <img width="952" alt="image" src="https://github.com/user-attachments/assets/f54eaad8-9e3e-424f-b1ab-b0e93d73a16d" />
 
   ##### - Đăng nhập thành công
@@ -59,13 +59,23 @@
   ##### - Đăng nhập không thành công
 <img width="953" alt="image" src="https://github.com/user-attachments/assets/97b1ac96-d991-4dd0-be30-df4cb5b4ac9f" />
 
-#### - ModernMaterialDashboard
-  ##### - Giao diện chính
+### ModernMaterialDashboard
+  #### - Giao diện chính
 <img width="955" alt="image" src="https://github.com/user-attachments/assets/41eacc17-ef01-472a-b3fb-fd975feb8333" />
 
 
   ##### - Giao diện của các thẻ khi Onclick
 <img width="950" alt="image" src="https://github.com/user-attachments/assets/bae213d0-6e05-4ade-962c-0914b1a5dc3e" />
+
+#### KidsLearning
+  #### - Giao diện đầu tiên
+![image](https://github.com/user-attachments/assets/28dd2ca2-a79c-47f2-81a7-da65a2487879)
+
+  #### - Giao diện home
+<img width="935" alt="image" src="https://github.com/user-attachments/assets/1878de82-6c85-457b-abd1-175bc3a6f72f" />
+
+
+  
 
 
 
