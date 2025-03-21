@@ -98,7 +98,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <ImageButton
-            android:id="@+id/btnVE"
+            android:id="@+id/btnTV"
             android:layout_width="142dp"
             android:layout_height="175dp"
             android:layout_marginTop="30dp"
@@ -129,7 +129,7 @@
             android:background="@drawable/bg_hinhvuong"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/btnVE" />
+            app:layout_constraintTop_toBottomOf="@+id/btnTV" />
 
         <TextView
             android:id="@+id/textView9"
@@ -156,8 +156,8 @@
             android:textColor="#edc463"
             android:textSize="28sp"
             android:textStyle="bold"
-            app:layout_constraintEnd_toEndOf="@+id/btnVE"
-            app:layout_constraintTop_toTopOf="@+id/btnVE" />
+            app:layout_constraintEnd_toEndOf="@+id/btnTV"
+            app:layout_constraintTop_toTopOf="@+id/btnTV" />
 
         <TextView
             android:id="@+id/textView11"

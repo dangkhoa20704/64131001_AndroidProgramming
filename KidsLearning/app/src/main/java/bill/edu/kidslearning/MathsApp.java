@@ -13,6 +13,7 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class MathsApp extends AppCompatActivity {
     ImageButton Home;
+    ImageButton Enghlish;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,6 +30,14 @@ public class MathsApp extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intentHome = new Intent(MathsApp.this, HomePage.class);
                 startActivity(intentHome);
+            }
+        });
+        Enghlish = findViewById(R.id.btnEg);
+        Enghlish.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intentModels = new Intent(MathsApp.this, MathsModel.class);
+                startActivity(intentModels);
             }
         });
     }

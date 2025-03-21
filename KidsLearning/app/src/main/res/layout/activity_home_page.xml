@@ -20,7 +20,7 @@
         app:srcCompat="@drawable/chuhome" />
 
     <ImageButton
-        android:id="@+id/btnMath"
+        android:id="@+id/btnTV"
         android:layout_width="130dp"
         android:layout_height="130dp"
         android:layout_marginStart="28dp"
@@ -49,7 +49,7 @@
         android:layout_marginTop="36dp"
         android:background="@drawable/bg_hvxanh"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnMath" />
+        app:layout_constraintTop_toBottomOf="@+id/btnTV" />
 
     <ImageButton
         android:id="@+id/btnPain"
@@ -110,7 +110,7 @@
         android:layout_marginStart="95dp"
         android:layout_marginTop="84dp"
         android:layout_marginBottom="3dp"
-        app:layout_constraintBottom_toBottomOf="@+id/btnMath"
+        app:layout_constraintBottom_toBottomOf="@+id/btnTV"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnSearch"
         app:srcCompat="@drawable/iconmaytinh" />
@@ -235,7 +235,7 @@
         android:textStyle="bold"
         android:textColor="#FF000000"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnMath" />
+        app:layout_constraintTop_toBottomOf="@+id/btnTV" />
 
     <TextView
         android:id="@+id/textView4"

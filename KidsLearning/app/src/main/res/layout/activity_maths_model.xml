@@ -58,7 +58,7 @@
 
 
         <ImageButton
-            android:id="@+id/btnEg"
+            android:id="@+id/btnCount"
             android:layout_width="142dp"
             android:layout_height="175dp"
             android:layout_marginStart="50dp"
@@ -68,7 +68,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <ImageButton
-            android:id="@+id/btnVE"
+            android:id="@+id/btnMaths"
             android:layout_width="142dp"
             android:layout_height="175dp"
             android:layout_marginTop="30dp"
@@ -78,7 +78,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <ImageButton
-            android:id="@+id/btnChina"
+            android:id="@+id/btnPattern"
             android:layout_width="142dp"
             android:layout_height="175dp"
             android:layout_marginStart="48dp"
@@ -87,11 +87,11 @@
             android:background="@drawable/bg_hvlo"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/btnEg"
+            app:layout_constraintTop_toBottomOf="@+id/btnCount"
             app:layout_constraintVertical_bias="0.0" />
 
         <ImageButton
-            android:id="@+id/btnKorea"
+            android:id="@+id/btnSetting"
             android:layout_width="142dp"
             android:layout_height="175dp"
             android:layout_marginTop="20dp"
@@ -100,7 +100,7 @@
             android:background="@drawable/bg_hinhvuong"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/btnVE"
+            app:layout_constraintTop_toBottomOf="@+id/btnMaths"
             app:layout_constraintVertical_bias="0.0" />
 
         <TextView
@@ -114,8 +114,8 @@
             android:textColor="#18b74b"
             android:textSize="28sp"
             android:textStyle="bold"
-            app:layout_constraintEnd_toEndOf="@+id/btnEg"
-            app:layout_constraintTop_toTopOf="@+id/btnEg" />
+            app:layout_constraintEnd_toEndOf="@+id/btnCount"
+            app:layout_constraintTop_toTopOf="@+id/btnCount" />
 
         <TextView
             android:id="@+id/textView13"
@@ -126,10 +126,10 @@
             android:textColor="#18b74b"
             android:textSize="25sp"
             android:textStyle="bold"
-            app:layout_constraintBottom_toBottomOf="@+id/btnEg"
-            app:layout_constraintEnd_toEndOf="@+id/btnEg"
-            app:layout_constraintStart_toStartOf="@+id/btnEg"
-            app:layout_constraintTop_toTopOf="@+id/btnEg" />
+            app:layout_constraintBottom_toBottomOf="@+id/btnCount"
+            app:layout_constraintEnd_toEndOf="@+id/btnCount"
+            app:layout_constraintStart_toStartOf="@+id/btnCount"
+            app:layout_constraintTop_toTopOf="@+id/btnCount" />
 
         <TextView
             android:id="@+id/textView10"
@@ -142,8 +142,8 @@
             android:textColor="#edc463"
             android:textSize="28sp"
             android:textStyle="bold"
-            app:layout_constraintEnd_toEndOf="@+id/btnVE"
-            app:layout_constraintTop_toTopOf="@+id/btnVE" />
+            app:layout_constraintEnd_toEndOf="@+id/btnMaths"
+            app:layout_constraintTop_toTopOf="@+id/btnMaths" />
 
         <TextView
             android:id="@+id/textView11"
@@ -156,8 +156,8 @@
             android:textColor="#2bafad"
             android:textSize="28sp"
             android:textStyle="bold"
-            app:layout_constraintEnd_toEndOf="@+id/btnChina"
-            app:layout_constraintTop_toTopOf="@+id/btnChina" />
+            app:layout_constraintEnd_toEndOf="@+id/btnPattern"
+            app:layout_constraintTop_toTopOf="@+id/btnPattern" />
 
         <TextView
             android:id="@+id/textView12"
@@ -170,18 +170,18 @@
             android:textColor="#BE3E53"
             android:textSize="28sp"
             android:textStyle="bold"
-            app:layout_constraintEnd_toEndOf="@+id/btnKorea"
-            app:layout_constraintTop_toTopOf="@+id/btnKorea" />
+            app:layout_constraintEnd_toEndOf="@+id/btnSetting"
+            app:layout_constraintTop_toTopOf="@+id/btnSetting" />
 
         <ImageView
             android:id="@+id/imageView17"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="20dp"
-            app:layout_constraintBottom_toBottomOf="@+id/btnVE"
-            app:layout_constraintEnd_toEndOf="@+id/btnVE"
-            app:layout_constraintStart_toStartOf="@+id/btnVE"
-            app:layout_constraintTop_toTopOf="@+id/btnVE"
+            app:layout_constraintBottom_toBottomOf="@+id/btnMaths"
+            app:layout_constraintEnd_toEndOf="@+id/btnMaths"
+            app:layout_constraintStart_toStartOf="@+id/btnMaths"
+            app:layout_constraintTop_toTopOf="@+id/btnMaths"
             app:srcCompat="@drawable/icon_hinhhocj" />
 
         <ImageView
@@ -189,10 +189,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="25dp"
-            app:layout_constraintBottom_toBottomOf="@+id/btnChina"
-            app:layout_constraintEnd_toEndOf="@+id/btnChina"
-            app:layout_constraintStart_toStartOf="@+id/btnChina"
-            app:layout_constraintTop_toTopOf="@+id/btnChina"
+            app:layout_constraintBottom_toBottomOf="@+id/btnPattern"
+            app:layout_constraintEnd_toEndOf="@+id/btnPattern"
+            app:layout_constraintStart_toStartOf="@+id/btnPattern"
+            app:layout_constraintTop_toTopOf="@+id/btnPattern"
             app:srcCompat="@drawable/ic_so" />
 
         <ImageView
@@ -200,10 +200,10 @@
             android:layout_width="71dp"
             android:layout_height="72dp"
             android:layout_marginBottom="25dp"
-            app:layout_constraintBottom_toBottomOf="@+id/btnKorea"
-            app:layout_constraintEnd_toEndOf="@+id/btnKorea"
-            app:layout_constraintStart_toStartOf="@+id/btnKorea"
-            app:layout_constraintTop_toTopOf="@+id/btnKorea"
+            app:layout_constraintBottom_toBottomOf="@+id/btnSetting"
+            app:layout_constraintEnd_toEndOf="@+id/btnSetting"
+            app:layout_constraintStart_toStartOf="@+id/btnSetting"
+            app:layout_constraintTop_toTopOf="@+id/btnSetting"
             app:srcCompat="@android:drawable/ic_menu_manage" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
