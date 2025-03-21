@@ -74,6 +74,19 @@
   #### - Giao diện home
 <img width="935" alt="image" src="https://github.com/user-attachments/assets/1878de82-6c85-457b-abd1-175bc3a6f72f" />
 
+  #### - Giao diện chọn ngôn ngữ để làm toán
+<img width="930" alt="image" src="https://github.com/user-attachments/assets/2fc79324-523e-4a47-b631-77d02fd8f45b" />
+
+   #### - Giao diện chọn models
+<img width="940" alt="image" src="https://github.com/user-attachments/assets/3cb4db54-5bfe-4240-8bcf-e8c010f3b0ea" />
+
+   #### - Giao diện bài toán đếm gấu (Có hiện đúng hay sai khi trỏ vào câu trả lời)
+  <img width="950" alt="image" src="https://github.com/user-attachments/assets/e2c70fc0-8286-4c11-8d9f-7ce60749ec5c" />
+
+   
+
+
+
 
   
 
