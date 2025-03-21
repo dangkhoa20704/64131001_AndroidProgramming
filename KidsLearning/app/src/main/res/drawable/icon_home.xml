@@ -10,7 +10,7 @@
     </group>
     <group>
         <path
-            android:fillColor="#FFFFFFFF"
+            android:fillColor="@color/white"
             android:pathData="M31.5 48V37.5h7V48h8.75V34h5.25L35 18.25 17.5 34h5.25v14h8.75Z"/>
     </group>
 </vector>
