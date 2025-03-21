@@ -12,7 +12,7 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 public class MathsModel extends AppCompatActivity {
-    ImageButton Home;
+    ImageButton Home,Count;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,6 +29,14 @@ public class MathsModel extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intentHome = new Intent(MathsModel.this, MathsApp.class);
                 startActivity(intentHome);
+            }
+        });
+        Count = findViewById(R.id.btnCount);
+        Count.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intentCount = new Intent(MathsModel.this, MathCount.class);
+                startActivity(intentCount);
             }
         });
     }
