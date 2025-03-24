@@ -11,38 +11,25 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class HomePage extends AppCompatActivity {
-    ImageButton Maths;
-    ImageButton Music;
-    void TimDieuKhien(){
-        Maths = findViewById(R.id.btnTV);
-        Music = findViewById(R.id.btnMusic);
-    }
+public class maths_Math extends AppCompatActivity {
+    ImageButton Home;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_home_page);
+        setContentView(R.layout.activity_maths_math);
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-        TimDieuKhien();
-        Maths.setOnClickListener(new View.OnClickListener() {
+        Home = findViewById(R.id.btnHome);
+        Home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intentMaths = new Intent(HomePage.this, MathsApp.class);
-                startActivity(intentMaths);
+                Intent intentHome = new Intent(maths_Math.this, MathsModel.class);
+                startActivity(intentHome);
             }
         });
-        Music.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intentMusic = new Intent(HomePage.this, MusicApp.class);
-                startActivity(intentMusic);
-            }
-        });
-
     }
 }
