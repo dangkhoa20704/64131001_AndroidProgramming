@@ -40,8 +40,8 @@ public class MainActivity extends AppCompatActivity {
     ArrayList<LandScape> getDataForRecyclerView(){
         ArrayList<LandScape> dsDuLieu = new ArrayList<LandScape>();
         dsDuLieu.add(new LandScape("eiffel", "Tháp Eiffel"));
-        dsDuLieu.add(new LandScape("LangBac", "Lăng Chủ Tịch Hồ Chí Minh"));
-        dsDuLieu.add(new LandScape("BuckingHam", "Cung Điện BuckingHam"));
+        dsDuLieu.add(new LandScape("langbac", "Lăng Chủ Tịch Hồ Chí Minh"));
+        dsDuLieu.add(new LandScape("buckingham", "Cung Điện BuckingHam"));
         return dsDuLieu;
     }
 
