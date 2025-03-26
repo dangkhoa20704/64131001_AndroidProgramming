@@ -67,7 +67,7 @@
   ##### - Giao diện của các thẻ khi Onclick
 <img width="950" alt="image" src="https://github.com/user-attachments/assets/bae213d0-6e05-4ade-962c-0914b1a5dc3e" />
 
-#### KidsLearning
+### KidsLearning
   #### - Giao diện đầu tiên
 ![image](https://github.com/user-attachments/assets/28dd2ca2-a79c-47f2-81a7-da65a2487879)
 
@@ -83,7 +83,7 @@
    #### - Giao diện bài toán đếm gấu (Có hiện đúng hay sai khi trỏ vào câu trả lời)
   <img width="950" alt="image" src="https://github.com/user-attachments/assets/e2c70fc0-8286-4c11-8d9f-7ce60749ec5c" />
 
-  #### RecyclerView
+  ### RecyclerView
   <img width="959" alt="image" src="https://github.com/user-attachments/assets/3b75f56e-f7d0-4ac3-8a68-68c88dea76cd" />
 
 
