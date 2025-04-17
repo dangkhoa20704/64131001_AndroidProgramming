@@ -89,6 +89,10 @@
 ### Fragment_Stactically
 ![image](https://github.com/user-attachments/assets/1956655a-27b6-419d-806b-07d98eb38f79)
 
+### Fragment_Dynamic
+<img width="956" alt="image" src="https://github.com/user-attachments/assets/b2ff36a7-b313-43bf-aef8-32a785585817" />
+
+
 
    
 
