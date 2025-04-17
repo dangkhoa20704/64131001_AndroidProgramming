@@ -77,14 +77,17 @@
   #### - Giao diện chọn ngôn ngữ để làm toán
 <img width="930" alt="image" src="https://github.com/user-attachments/assets/2fc79324-523e-4a47-b631-77d02fd8f45b" />
 
-   #### - Giao diện chọn models
+  #### - Giao diện chọn models
 <img width="940" alt="image" src="https://github.com/user-attachments/assets/3cb4db54-5bfe-4240-8bcf-e8c010f3b0ea" />
 
    #### - Giao diện bài toán đếm gấu (Có hiện đúng hay sai khi trỏ vào câu trả lời)
   <img width="950" alt="image" src="https://github.com/user-attachments/assets/e2c70fc0-8286-4c11-8d9f-7ce60749ec5c" />
 
-  ### RecyclerView
-  <img width="959" alt="image" src="https://github.com/user-attachments/assets/3b75f56e-f7d0-4ac3-8a68-68c88dea76cd" />
+### RecyclerView
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/3b75f56e-f7d0-4ac3-8a68-68c88dea76cd" />
+
+### Fragment_Stactically
+![image](https://github.com/user-attachments/assets/1956655a-27b6-419d-806b-07d98eb38f79)
 
 
    
