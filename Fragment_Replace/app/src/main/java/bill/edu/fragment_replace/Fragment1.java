@@ -7,8 +7,12 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-public class FooterFragment extends Fragment {
 
+
+public class Fragment1 extends Fragment {
+    public Fragment1() {
+        // Required empty public constructor
+    }
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -18,8 +22,7 @@ public class FooterFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View v = inflater.inflate(R.layout.fragment_footer, container, false);
         // Inflate the layout for this fragment
-       return v;
+        return inflater.inflate(R.layout.fragment_1, container, false);
     }
 }

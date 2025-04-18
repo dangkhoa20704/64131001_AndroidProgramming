@@ -13,14 +13,14 @@
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:background="#d9b4b4"
-        app:layout_constraintBottom_toTopOf="@+id/fragmentContainerView2"
+        app:layout_constraintBottom_toTopOf="@+id/fragmentContainerView_Footer"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.fragment.app.FragmentContainerView
-        android:id="@+id/fragmentContainerView2"
+        android:id="@+id/fragmentContainerView_Footer"
         android:name="bill.edu.fragment_replace.FooterFragment"
         android:layout_width="0dp"
         android:layout_height="80dp"
