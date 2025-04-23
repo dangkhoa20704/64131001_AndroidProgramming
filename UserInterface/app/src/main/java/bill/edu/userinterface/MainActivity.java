@@ -10,7 +10,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
-import androidx.fragment.app.Fragment;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
@@ -21,17 +20,28 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
-        bottomNavigationView = findViewById(R.id.bottomNavigationView);
+        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.btn_nav), (v, insets) -> {
+            Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
+            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
+            return insets;
+        });
+        bottomNavigationView = findViewById(R.id.btn_nav);
         bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-                int itemId = item.getItemId();
-                if(itemId == R.id.mnu_home){
-                    Toast.makeText()
+                int mnuItemDuoChon = item.getItemId();
+                if(mnuItemDuoChon == R.id.mnu_home)
+                    //Thay fargment
+                    Toast.makeText(MainActivity.this, "Thay Home",Toast.LENGTH_SHORT).show();
+                else if (mnuItemDuoChon == R.id.mnu_search){
+                    Toast.makeText(MainActivity.this, "Thay Sreach",Toast.LENGTH_SHORT).show();
                 }
-
-
-                return false;
+                else if (mnuItemDuoChon == R.id.nmu_profile){
+                    Toast.makeText(MainActivity.this, "Thay Profile",Toast.LENGTH_SHORT).show();
+                }
+                else
+                    return false;
+                return true;
             }
         });
     }
