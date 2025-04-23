@@ -92,6 +92,16 @@
 ### Fragment_Dynamic
 <img width="956" alt="image" src="https://github.com/user-attachments/assets/b2ff36a7-b313-43bf-aef8-32a785585817" />
 
+### Fragment_Replace
+![image](https://github.com/user-attachments/assets/0a44f1cb-0598-4b99-a160-5f8f7458db05)
+
+![image](https://github.com/user-attachments/assets/1ac4bc57-676d-4eb8-a58c-7f91a528b157)
+
+![image](https://github.com/user-attachments/assets/fe8b92fd-8ebb-453d-8832-33422674ea92)
+
+
+
+
 
 
    
